@@ -1,6 +1,7 @@
-import React, {useContext, useEffect, useState} from 'react'
+import React, {useState, useEffect, useContext} from 'react'
 import {useHttp} from '../hooks/http.hook'
 import {useMessage} from '../hooks/message.hook'
+// import {useMessage} from '../hooks/message.hook'
 import {AuthContext} from '../context/AuthContext'
 
 export const AuthPage = () => {
@@ -88,6 +89,7 @@ export const AuthPage = () => {
               className="btn grey lighten-1 black-text"
               onClick={registerHandler}
               disabled={loading}
+              
             >
               Регистрация
             </button>

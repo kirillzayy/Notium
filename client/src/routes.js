@@ -22,5 +22,5 @@ export const useRoutes = isAuthenticated => {
       <Route path="/" exact element={<AuthPage />} />
       {/* <><Navigate to="/" /></> */}
     </Routes>
-  )
-}
+  );
+};

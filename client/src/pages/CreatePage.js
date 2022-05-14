@@ -1,7 +1,7 @@
 import React, {useContext, useEffect, useState} from 'react'
 import {useHttp} from '../hooks/http.hook'
 import {AuthContext} from '../context/AuthContext'
-import {useNavigate} from 'react-router-dom'
+import {useNavigate } from 'react-router-dom'
 
 export const CreatePage = () => {
   const history = useNavigate()
